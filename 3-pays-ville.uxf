@@ -9,7 +9,7 @@
       <w>210</w>
       <h>190</h>
     </coordinates>
-    <panel_attributes>&lt;&lt; Pays &gt;&gt;
+    <panel_attributes>Pays
 --
 </panel_attributes>
     <additional_attributes/>
@@ -22,7 +22,7 @@
       <w>210</w>
       <h>190</h>
     </coordinates>
-    <panel_attributes>&lt;&lt; Ville &gt;&gt;
+    <panel_attributes>Ville
 --
 
 capitale: String</panel_attributes>
