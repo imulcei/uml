@@ -4,25 +4,27 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>510</x>
-      <y>550</y>
+      <x>520</x>
+      <y>140</y>
       <w>210</w>
-      <h>190</h>
+      <h>90</h>
     </coordinates>
-    <panel_attributes>&lt;&lt; Arret &gt;&gt;
+    <panel_attributes>ArretFonctionnement
 --
-</panel_attributes>
+- heureDepart: Date
+- heureFin: Date
+--</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
       <x>270</x>
-      <y>230</y>
+      <y>260</y>
       <w>210</w>
       <h>190</h>
     </coordinates>
-    <panel_attributes>&lt;&lt; LigneMetro &gt;&gt;
+    <panel_attributes>LigneBus
 --
 </panel_attributes>
     <additional_attributes/>
@@ -31,11 +33,11 @@
     <id>UMLClass</id>
     <coordinates>
       <x>750</x>
-      <y>230</y>
+      <y>260</y>
       <w>210</w>
       <h>190</h>
     </coordinates>
-    <panel_attributes>&lt;&lt; Station &gt;&gt;
+    <panel_attributes>Stop
 --
 </panel_attributes>
     <additional_attributes/>
@@ -44,7 +46,7 @@
     <id>Relation</id>
     <coordinates>
       <x>470</x>
-      <y>290</y>
+      <y>320</y>
       <w>300</w>
       <h>50</h>
     </coordinates>
@@ -58,13 +60,116 @@ m2=1..1
     <id>Relation</id>
     <coordinates>
       <x>610</x>
-      <y>300</y>
-      <w>50</w>
-      <h>270</h>
+      <y>220</y>
+      <w>30</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes>lt=.
+</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;120.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>270</x>
+      <y>750</y>
+      <w>210</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>LigneMetro
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>760</x>
+      <y>740</y>
+      <w>210</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>Station
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>470</x>
+      <y>800</y>
+      <w>310</w>
+      <h>40</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;-
-m1=1..*
-m2=1</panel_attributes>
-    <additional_attributes>10.0;250.0;10.0;10.0</additional_attributes>
+m2=2..n
+m1=0..n</panel_attributes>
+    <additional_attributes>10.0;10.0;290.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>610</x>
+      <y>800</y>
+      <w>30</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>lt=.
+</panel_attributes>
+    <additional_attributes>10.0;90.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>510</x>
+      <y>890</y>
+      <w>210</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>ArretFonctionnement
+--
+- heureDepart: Date
+- heureFin: Date
+-</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>760</x>
+      <y>490</y>
+      <w>210</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>ExtraStop
+--
+- coordinates: Coordinates</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>400</x>
+      <y>440</y>
+      <w>380</w>
+      <h>170</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=0..n
+m2=1..1
+&lt; concerne</panel_attributes>
+    <additional_attributes>360.0;140.0;10.0;140.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>850</x>
+      <y>440</y>
+      <w>30</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;50.0</additional_attributes>
   </element>
 </diagram>
