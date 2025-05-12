@@ -12,8 +12,7 @@
     <panel_attributes>ArretFonctionnement
 --
 - heureDepart: Date
-- heureFin: Date
---</panel_attributes>
+- heureFin: Date</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -131,7 +130,7 @@ m1=0..n</panel_attributes>
 --
 - heureDepart: Date
 - heureFin: Date
--</panel_attributes>
+</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
