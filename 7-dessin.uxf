@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.1">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>730</x>
+      <y>260</y>
+      <w>210</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt; GroupeDessin &gt;&gt;
+--
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>190</x>
+      <y>260</y>
+      <w>210</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>/Dessin/
+--
+
+- point: int
+- ligne: int
+- cercle: int</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>390</x>
+      <y>350</y>
+      <w>360</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+m2=0..n</panel_attributes>
+    <additional_attributes>10.0;10.0;340.0;10.0</additional_attributes>
+  </element>
+</diagram>

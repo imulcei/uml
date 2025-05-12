@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.1">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>510</x>
+      <y>550</y>
+      <w>210</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt; Arret &gt;&gt;
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>270</x>
+      <y>230</y>
+      <w>210</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt; LigneMetro &gt;&gt;
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>750</x>
+      <y>230</y>
+      <w>210</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt; Station &gt;&gt;
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>470</x>
+      <y>290</y>
+      <w>300</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1..n
+m2=1..1
+&lt; peut-être lié à</panel_attributes>
+    <additional_attributes>10.0;20.0;280.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>610</x>
+      <y>300</y>
+      <w>50</w>
+      <h>270</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-
+m1=1..*
+m2=1</panel_attributes>
+    <additional_attributes>10.0;250.0;10.0;10.0</additional_attributes>
+  </element>
+</diagram>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.1">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>240</x>
+      <y>270</y>
+      <w>210</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt; Freelance &gt;&gt;
+--
+
+- nom: String
+- prenom: String
+- siret: long
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>700</x>
+      <y>270</y>
+      <w>210</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt; Entreprise &gt;&gt;
+--
+
+- nom: String
+- siret: long
+- nbEmployes: int
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>480</x>
+      <y>590</y>
+      <w>210</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt; Contrat &gt;&gt;
+--
+
+- dateDebut: Date
+- dateFin: Date
+- salaire: int</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>440</x>
+      <y>340</y>
+      <w>280</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-&gt;
+m1=1..1
+m2=0..n</panel_attributes>
+    <additional_attributes>10.0;10.0;260.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>570</x>
+      <y>340</y>
+      <w>50</w>
+      <h>270</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-
+m1=1..*</panel_attributes>
+    <additional_attributes>10.0;250.0;10.0;10.0</additional_attributes>
+  </element>
+</diagram>
