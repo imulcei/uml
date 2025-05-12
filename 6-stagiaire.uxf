@@ -9,7 +9,7 @@
       <w>210</w>
       <h>190</h>
     </coordinates>
-    <panel_attributes>&lt;&lt; Stagiaire &gt;&gt;
+    <panel_attributes>Stagiaire
 --
 
 - nom: String
@@ -26,7 +26,7 @@
       <w>210</w>
       <h>190</h>
     </coordinates>
-    <panel_attributes>&lt;&lt; Formation &gt;&gt;
+    <panel_attributes>Formation
 --
 
 - formateurRéférent : Formateur</panel_attributes>
@@ -40,7 +40,7 @@
       <w>210</w>
       <h>190</h>
     </coordinates>
-    <panel_attributes>&lt;&lt; Formateur &gt;&gt;
+    <panel_attributes>Formateur
 --
 </panel_attributes>
     <additional_attributes/>
@@ -49,28 +49,24 @@
     <id>Relation</id>
     <coordinates>
       <x>230</x>
-      <y>300</y>
+      <y>310</y>
       <w>260</w>
-      <h>50</h>
+      <h>40</h>
     </coordinates>
-    <panel_attributes>lt=-
-m1=1..1
-m2=1..1
-suit &gt;</panel_attributes>
-    <additional_attributes>10.0;20.0;240.0;20.0</additional_attributes>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+m2=1..n</panel_attributes>
+    <additional_attributes>240.0;10.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
       <x>670</x>
-      <y>300</y>
+      <y>310</y>
       <w>250</w>
-      <h>50</h>
+      <h>40</h>
     </coordinates>
-    <panel_attributes>lt=-
-m1=1..n
-m2=1..1
-peut-être menée par &gt;</panel_attributes>
-    <additional_attributes>230.0;20.0;10.0;20.0</additional_attributes>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-
+m2=1..n</panel_attributes>
+    <additional_attributes>230.0;10.0;10.0;10.0</additional_attributes>
   </element>
 </diagram>
