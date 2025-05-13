@@ -28,12 +28,12 @@ fontsize=10
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>169</x>
-      <y>208</y>
+      <x>221</x>
+      <y>195</y>
       <w>273</w>
       <h>247</h>
     </coordinates>
-    <panel_attributes>&lt;&lt; Freelance &gt;&gt;
+    <panel_attributes>Freelance
 --
 
 - nom: String
@@ -45,12 +45,12 @@ fontsize=10
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>767</x>
-      <y>208</y>
+      <x>819</x>
+      <y>195</y>
       <w>273</w>
       <h>247</h>
     </coordinates>
-    <panel_attributes>&lt;&lt; Entreprise &gt;&gt;
+    <panel_attributes>Entreprise 
 --
 
 - nom: String
@@ -62,12 +62,12 @@ fontsize=10
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>481</x>
-      <y>533</y>
+      <x>533</x>
+      <y>520</y>
       <w>273</w>
       <h>247</h>
     </coordinates>
-    <panel_attributes>&lt;&lt; Contrat &gt;&gt;
+    <panel_attributes>Contrat
 --
 
 - dateDebut: Date
@@ -78,21 +78,22 @@ fontsize=10
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>429</x>
-      <y>299</y>
+      <x>481</x>
+      <y>273</y>
       <w>364</w>
-      <h>39</h>
+      <h>52</h>
     </coordinates>
-    <panel_attributes>lt=&lt;-&gt;
-m1=1..1
+    <panel_attributes>lt=-&gt;
+travaille
+m1=0..n
 m2=0..n</panel_attributes>
-    <additional_attributes>10.0;10.0;260.0;10.0</additional_attributes>
+    <additional_attributes>10.0;20.0;260.0;20.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>598</x>
-      <y>299</y>
+      <x>650</x>
+      <y>286</y>
       <w>39</w>
       <h>260</h>
     </coordinates>
